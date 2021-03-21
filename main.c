@@ -64,7 +64,6 @@ void b2t(char* bit_vector, long long int* x)
     if (bit_vector[0] == '1')
     {
         *x = -1 * _pow(2, w);
-        printf("%lld\n", *x);
     }
 
     for (int i = 1; i < strlen(bit_vector); i++)
